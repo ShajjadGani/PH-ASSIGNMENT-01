@@ -1,6 +1,210 @@
+.azeret-mono-primary-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px, 221px;
+    background-image: url('../assets/Hero-bg.png');
+}
+.section-1 h2{
+    font-weight: 800;
+    color: #0D1321;
+}
+.section-1 p{
+    font-weight: 400;
+    color: #0D1321;
+    text-align: center;
+}
+.section-1 button{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px, 221px;
+}
+.main-title h1{
+    font-weight: 800;
+    color: #0D1321;
+}
+.main-title p{
+    font-weight: 400;
+    color: #0D1321;
+    text-align: center;
+}
+
+.segment-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.segment-1 h2{
+    font-weight: 800;
+    color: #0D1321;
+}
+.segment-1 p{
+    font-weight: 400;
+    color: #0D1321;
+    text-align: left;
+}
+.segment-1 button{
+    color: #0D1321FF;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.segment-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.segment-2 h2{
+    font-weight: 800;
+    color: #0D1321;
+}
+.segment-2 p{
+    font-weight: 400;
+    color: #0D1321;
+    text-align: left;
+}
+.segment-2 button{
+    color: #0D1321FF;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.segment-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.segment-3 h2{
+    font-weight: 800;
+    color: #0D1321B3;
+}
+.segment-3 p{
+    font-weight: 400;
+    color: #0D1321FF;
+    text-align: left;
+}
+.segment-3 button{
+    color: #0D1321FF;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px, 221px;
+}
+
+.target{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 30px, 221px;
+}
+
+.card-1, .card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F0F4F8;
+    border-radius: 10px;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F0F4F8;
+    border-radius: 10px;
+}
+.card-1 h3, .card-2 h3, .card-3 h3{
+    font-weight: 800;
+    color: #0D1321;
+}
+.card-1 p, .card-2 p, .card-3 p{
+    font-weight: 400;
+    color: #0D1321;
+    text-align: center;
+}
+.card-1 button, .card-2 button, .card-3 button{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    margin: 30px, 221px;
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    width: 100%;
+    height: 313px;
+}
+.support input[type="text"]{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 548px;
+    color: #0D1321FF; 
+}
+.support button[type="submit"]{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100px;
+    color: #0D1321FF; 
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 30px, 221px;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
