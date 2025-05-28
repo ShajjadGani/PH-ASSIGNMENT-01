@@ -77,7 +77,7 @@ nav button{
     align-items: center;
     padding: 10px 20px;
 }
-.segment-1 h2{
+.segment-1 h4{
     font-weight: 800;
     color: #0D1321;
 }
@@ -85,6 +85,8 @@ nav button{
     font-weight: 400;
     color: #0D1321;
     text-align: left;
+    padding-right: 40px;
+    margin-right: 40px;
 }
 .segment-1 button{
     color: #0D1321FF;
@@ -98,27 +100,34 @@ nav button{
     padding: 10px 20px;
     background-color: white;
 }
-.segment-2 h2{
+.segment-2 h4{
     font-weight: 800;
     color: #0D1321;
+    padding-left: 40px;
+    margin-left: 40px;
 }
 .segment-2 p{
     font-weight: 400;
     color: #0D1321;
     text-align: left;
+    padding-left: 40px;
+    margin-left: 40px;
 }
 .segment-2 button{
     color: #0D1321FF;
     padding: 12px 20px;
     cursor: pointer;
+    padding-left: 25px;
+    margin-left: 80px;
 }
 .segment-3{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    margin-bottom: 170px;
 }
-.segment-3 h2{
+.segment-3 h4{
     font-weight: 800;
     color: #0D1321B3;
 }
@@ -126,6 +135,8 @@ nav button{
     font-weight: 400;
     color: #0D1321FF;
     text-align: left;
+    padding-right: 40px;
+    margin-right: 40px;
 }
 .segment-3 button{
     color: #0D1321FF;
@@ -139,6 +150,17 @@ nav button{
     align-items: center;
     padding: 20px;
     margin: 30px, 221px;
+}
+.inspiration p{
+    font-weight: 400;
+    color: rgba(13, 19, 33, 1);
+    text-align: center;
+}
+
+.video-segment{
+    border: #0D1321FF 1px solid;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 .target-title{
     display: flex;
